@@ -222,7 +222,7 @@ fun BottomNavigationItem(imageResId: Int, abajo: String, onClick: () -> Unit) {
 fun FriendItem(name: String, imageResId: Int) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = Modifier.padding(horizontal = 8.dp)
+        modifier = Modifier.padding(horizontal = 6.dp)
     ) {
         Box(
             modifier = Modifier
